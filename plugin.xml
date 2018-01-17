@@ -23,7 +23,7 @@
       </feature>
     </config-file>
     <source-file src="src/android/BVInterface.java" target-dir="src/com/example/plugin/"/>
-    <framework src="src/android/extendsBuild.gradle" custom="true" type="gradleReference" />
+    <!-- <framework src="src/android/extendsBuild.gradle" custom="true" type="gradleReference" /> -->
   </platform>
   <platform name="ios">
       
