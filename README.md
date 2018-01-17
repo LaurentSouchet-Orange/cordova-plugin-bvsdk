@@ -177,7 +177,7 @@ var failure = function() {
 $ cordova create hello com.example.hello HelloWorld
 $ cd hello
 $ cordova platform add android
-$ cordova plugin add https://github.com/bazaarvoice/cordova-plugin-bvsdk#master:/bvplugin
+$ cordova plugin add https://github.com/LaurentSouchet-Orange/cordova-plugin-bvsdk
 ```
 
 - Open the project in Android Studio (`path/to/hello/platforms/android`) and open the `build.gradle (Module:android)` file. Inside the `allprojects` declaration, add these repositories:

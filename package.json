@@ -1,0 +1,16 @@
+{
+    "name": "bvinterface",
+    "version": "1.4.15",
+    "description": "BazaarVoice Interface",
+    "cordova": {
+        "id": "com.example.bvinterface",
+        "platforms": [
+            "android",
+            "ios"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LaurentSouchet-Orange/cordova-plugin-bvsdk.git"
+    }
+}
