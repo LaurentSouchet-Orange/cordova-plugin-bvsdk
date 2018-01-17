@@ -22,8 +22,8 @@
         <param name="android-package" value="com.example.plugin.BVInterface"/>
       </feature>
     </config-file>
-
     <source-file src="src/android/BVInterface.java" target-dir="src/com/example/plugin/"/>
+    <framework src="src/android/extendsBuild.gradle" custom="true" type="gradleReference" />
   </platform>
   <platform name="ios">
       

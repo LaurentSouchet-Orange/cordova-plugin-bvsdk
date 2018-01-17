@@ -1,0 +1,10 @@
+dependencies {
+    //GSON-DEPENDENCY
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.7'
+    //BV-DEPENDENCIES
+    compile "com.bazaarvoice.bvandroidsdk:recommendations:5.+"
+    compile 'com.bazaarvoice.bvandroidsdk:curations:5.+'
+    compile 'com.bazaarvoice.bvandroidsdk:advertising:5.+'
+    compile 'com.bazaarvoice.bvandroidsdk:conversations:5.+'
+    compile 'com.bazaarvoice.bvandroidsdk:location:5.+'
+}
